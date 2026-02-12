@@ -2,7 +2,7 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif!important;
 }
 html, body {
-  height: 100%;      /* full viewport height */
+  height: 100%;     
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -110,3 +110,245 @@ html, body {
     display: none;
 
 }
+
+@media (max-width: 765px) {
+
+  .row {
+    justify-content: center !important;
+  }
+  .row h3{
+      display: flex;
+     margin-left: -4% !important;
+          margin-right: 8% !important;
+   
+     justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+        width: 100%;
+  
+  }
+  .card h6{
+    display: flex !important;
+     margin-left: auto !important;
+    margin-right: auto !important;
+     justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+
+  }
+
+  .card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+   .starability-result {
+    transform: scale(0.7);              
+    transform-origin: left center;      
+    max-width: 120px !important;        
+    overflow: hidden !important;        
+    margin: 0 auto !important;          
+    display: block;
+  }
+
+
+  .starability-slot {
+    transform: scale(0.8);
+    transform-origin: center;
+    max-width: 150px !important;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+   .row {
+        justify-content: center !important;
+    }
+
+  
+    .col-8.offset-2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 95% !important;  
+    }
+
+   
+    .col-8.offset-2 form input,
+    .col-8.offset-2 form textarea,
+    .col-8.offset-2 form select {
+        width: 100% !important;
+    }
+
+  
+    .col-8.offset-2 h1 {
+        text-align: center !important;
+    }
+
+  
+    .col-8.offset-2 button.add {
+        display: block;
+        margin: 0 auto !important;
+    }
+    .filters{
+        display: flex;
+        flex-direction: row;
+       margin-left: auto;
+       margin-right: auto;
+       
+       
+   
+       
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .filters .toggle{
+       margin-left: auto;
+       width: 75%;
+       margin-right: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;  
+        margin-left: 9%;
+    }
+  
+   
+   
+
+}
+@media (max-width: 980px) {
+
+ 
+  .navbar .container-fluid {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .navbar-toggler {
+    margin-left: auto !important; 
+  }
+
+ 
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: 0.5rem !important;
+    display: inline-block !important;
+  }
+
+  #exploreLink {
+    display: inline-block !important;
+    margin-left: 0 !important;
+    margin-right: 1rem !important;    
+    color: black !important;
+  }
+
+
+  .navbar-collapse {
+    background-color: black !important;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+ 
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.8rem;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1rem;
+  }
+
+
+  .searchbutton form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+  }
+
+  .searchbutton .input {
+    width: 80% !important;
+  }
+
+  .searchbutton .search {
+    width: 50% !important;
+  }
+ 
+  .row,
+  .offset-4,
+  .offset-3,
+  .col-4,
+  .col-6,
+  .col-12 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+ 
+  .card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+ 
+  .reviewcard {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+
+  h3, h4, p {
+    text-align: center !important;
+  }
+
+
+  textarea.form-control {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90% !important;
+  }
+  .col-6.offset-3 {
+        max-width: 80% !important;
+        flex: 0 0 80%;
+        margin: 0 auto !important;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+    .options {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      gap: 30px;
+
+    }
+     .row h3{
+      margin-right: 9%;
+    }
+    .card h6{
+    display: flex !important;
+     margin-left: auto !important;
+    margin-right: auto !important;
+     justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+
+  }
+
+} 
+
+

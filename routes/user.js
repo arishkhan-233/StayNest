@@ -27,7 +27,7 @@ router.post("/login",passport.authenticate("local",{
 }),
 async (req,res)=>{
     req.flash("success","logged in succefully!")
-    res.redirect("/listings")
+    res.redirect("/listings") 
 
 })
 router.get("/logout",(req,res,next)=>{

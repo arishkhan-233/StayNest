@@ -90,7 +90,12 @@ app.use((req,res,next)=>{
 app.use("/listings",listings)
 app.use("/listings/:id/reviews",reviews)
 app.use("/",user)
-
+app.get("/privacy", (req, res) => {
+  res.render("privacy.ejs");
+});
+app.get("/terms", (req, res) => {
+  res.render("terms.ejs");
+});
 
 app.use((req, res, next) => {
   next(new ExpressError(404, "Page not found!"));
@@ -100,6 +105,10 @@ app.use((err,req,res,next)=>{
     let{statusCode =500, message="some error"}=err
     res.status(statusCode).render("error.ejs",{message})
 })
+
+
+
+
 
 app.listen(8080,()=>{
     console.log("listening to port:8080")
