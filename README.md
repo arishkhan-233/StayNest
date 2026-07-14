@@ -27,14 +27,7 @@ StayNest is a full-stack property rental web application where users can explore
 - Cloudinary
 - Joi
 
-## Installation
 
-```bash
-git clone https://github.com/yourusername/StayNest.git
-cd StayNest
-npm install
-npm start
-```
 
 ## Live Demo
 
