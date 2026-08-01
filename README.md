@@ -31,7 +31,7 @@ StayNest is a full-stack property rental web application where users can explore
 
 ## Live Demo
 
-https://staynest.onrender.com/
+https://staynest-1-5tkp.onrender.com/listings
 
 ## Author
 
